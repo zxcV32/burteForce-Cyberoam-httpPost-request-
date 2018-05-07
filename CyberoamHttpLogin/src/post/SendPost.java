@@ -66,9 +66,6 @@ public class SendPost {
 		 String urlPsarameters ="fName=" + URLEncoder.encode("???", "UTF-8") +"&lName=" + URLEncoder.encode("???", "UTF-8");
 		
 		int responseCode = con.getResponseCode();
-//		System.out.println("\nSending 'POST' request to URL : " + apiEndpoint);
-//		System.out.println("Post parameters : " + params);
-//		System.out.println("Response Code : " + responseCode);
 
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String inputLine;
